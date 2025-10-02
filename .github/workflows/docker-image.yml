@@ -28,4 +28,3 @@ jobs:
         context: .
         file: ./docker/Dockerfile
         push: true
-        tags: $(date +%s)
