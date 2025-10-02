@@ -28,4 +28,4 @@ jobs:
         context: .
         file: ./docker/Dockerfile
         push: true
-        tags: homework:$(date +%s)
+        tags: $(date +%s)
