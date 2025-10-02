@@ -28,3 +28,4 @@ jobs:
         context: .
         file: ./docker/Dockerfile
         push: true
+        tags: homework:latest
